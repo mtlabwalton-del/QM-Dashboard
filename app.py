@@ -86,3 +86,13 @@ elif page == "Gauge Development Index":
     df = load_sheet("Gauge Development Index")
 
     st.dataframe(df, use_container_width=True)
+
+# PAGE 5
+# -----------------------------
+elif page == "Temp":
+
+    st.title("Temp")
+
+    df = load_sheet("Temp")
+
+    st.dataframe(df, use_container_width=True)
